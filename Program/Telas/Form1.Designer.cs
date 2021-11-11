@@ -30,25 +30,23 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnCadastrarAdministrador = new System.Windows.Forms.Button();
-            this.txtCpfUsuario = new System.Windows.Forms.TextBox();
-            this.txtNomeUsuario = new System.Windows.Forms.TextBox();
-            this.cbbTipoUsuario = new System.Windows.Forms.ComboBox();
+            this.txtCpfAdministrador = new System.Windows.Forms.TextBox();
+            this.txtNomeAdministrador = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtSenhaUsuario = new System.Windows.Forms.TextBox();
+            this.txtSenhaAdministrador = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(69, 48);
+            this.label1.Location = new System.Drawing.Point(39, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 37);
+            this.label1.Size = new System.Drawing.Size(306, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Cadastrar Usuário";
+            this.label1.Text = "Cadastrar Administrador";
             // 
             // label2
             // 
@@ -58,15 +56,6 @@
             this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nome";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(69, 248);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tipo";
             // 
             // label4
             // 
@@ -79,7 +68,7 @@
             // 
             // btnCadastrarAdministrador
             // 
-            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(100, 397);
+            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(100, 327);
             this.btnCadastrarAdministrador.Name = "btnCadastrarAdministrador";
             this.btnCadastrarAdministrador.Size = new System.Drawing.Size(165, 59);
             this.btnCadastrarAdministrador.TabIndex = 4;
@@ -87,63 +76,49 @@
             this.btnCadastrarAdministrador.UseVisualStyleBackColor = true;
             this.btnCadastrarAdministrador.Click += new System.EventHandler(this.btnCadastrarAdministrador_Click);
             // 
-            // txtCpfUsuario
+            // txtCpfAdministrador
             // 
-            this.txtCpfUsuario.Location = new System.Drawing.Point(69, 201);
-            this.txtCpfUsuario.Name = "txtCpfUsuario";
-            this.txtCpfUsuario.Size = new System.Drawing.Size(237, 23);
-            this.txtCpfUsuario.TabIndex = 7;
+            this.txtCpfAdministrador.Location = new System.Drawing.Point(69, 201);
+            this.txtCpfAdministrador.Name = "txtCpfAdministrador";
+            this.txtCpfAdministrador.Size = new System.Drawing.Size(237, 23);
+            this.txtCpfAdministrador.TabIndex = 7;
             // 
-            // txtNomeUsuario
+            // txtNomeAdministrador
             // 
-            this.txtNomeUsuario.Location = new System.Drawing.Point(69, 136);
-            this.txtNomeUsuario.Name = "txtNomeUsuario";
-            this.txtNomeUsuario.Size = new System.Drawing.Size(237, 23);
-            this.txtNomeUsuario.TabIndex = 7;
-            // 
-            // cbbTipoUsuario
-            // 
-            this.cbbTipoUsuario.FormattingEnabled = true;
-            this.cbbTipoUsuario.Items.AddRange(new object[] {
-            "Aluno",
-            "Professor",
-            "Administrador"});
-            this.cbbTipoUsuario.Location = new System.Drawing.Point(69, 266);
-            this.cbbTipoUsuario.Name = "cbbTipoUsuario";
-            this.cbbTipoUsuario.Size = new System.Drawing.Size(237, 23);
-            this.cbbTipoUsuario.TabIndex = 8;
+            this.txtNomeAdministrador.Location = new System.Drawing.Point(69, 136);
+            this.txtNomeAdministrador.Name = "txtNomeAdministrador";
+            this.txtNomeAdministrador.Size = new System.Drawing.Size(237, 23);
+            this.txtNomeAdministrador.TabIndex = 7;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(69, 313);
+            this.label5.Location = new System.Drawing.Point(69, 243);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 15);
             this.label5.TabIndex = 2;
             this.label5.Text = "Senha";
             // 
-            // txtSenhaUsuario
+            // txtSenhaAdministrador
             // 
-            this.txtSenhaUsuario.Location = new System.Drawing.Point(69, 331);
-            this.txtSenhaUsuario.Name = "txtSenhaUsuario";
-            this.txtSenhaUsuario.Size = new System.Drawing.Size(237, 23);
-            this.txtSenhaUsuario.TabIndex = 7;
+            this.txtSenhaAdministrador.Location = new System.Drawing.Point(69, 261);
+            this.txtSenhaAdministrador.Name = "txtSenhaAdministrador";
+            this.txtSenhaAdministrador.Size = new System.Drawing.Size(237, 23);
+            this.txtSenhaAdministrador.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 492);
-            this.Controls.Add(this.btnCadastrarAdministrador);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtSenhaUsuario);
+            this.ClientSize = new System.Drawing.Size(380, 438);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtNomeUsuario);
+            this.Controls.Add(this.txtSenhaAdministrador);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnCadastrarAdministrador);
+            this.Controls.Add(this.txtNomeAdministrador);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtCpfUsuario);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.cbbTipoUsuario);
+            this.Controls.Add(this.txtCpfAdministrador);
             this.Name = "Form1";
             this.Text = "Cadastrar Usuário";
             this.ResumeLayout(false);
@@ -155,14 +130,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCadastrarAdministrador;
-        private System.Windows.Forms.TextBox txtCpfUsuario;
-        private System.Windows.Forms.TextBox txtNomeUsuario;
-        private System.Windows.Forms.ComboBox cbbTipoUsuario;
+        private System.Windows.Forms.TextBox txtCpfAdministrador;
+        private System.Windows.Forms.TextBox txtNomeAdministrador;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtSenhaUsuario;
+        private System.Windows.Forms.TextBox txtSenhaAdministrador;
     }
 }
 

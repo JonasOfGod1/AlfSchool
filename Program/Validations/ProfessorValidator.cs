@@ -3,26 +3,29 @@ using Program.Entities;
 
 namespace Program.Validations
 {
-	public class UsuarioValidator : AbstractValidator<Usuario>
+	public class ProfessorValidator : AbstractValidator<Professor>
 	{
-		public UsuarioValidator()
+		public ProfessorValidator()
 		{
-			RuleFor(u => u.Nome)
-				.NotEmpty().WithMessage("O nome do Usuário deve ser informado.")
-				.Length(3, 50).WithMessage("O nome do Usuário deve conter entre 3 e 50 caracteres.")
-				.Matches("^[0-9 a-zA-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ]+$").WithMessage("O nome do Usuário contém caracteres inválidos.");
+			RuleFor(a => a.Nome)
+				.NotEmpty().WithMessage("O nome deve ser informado.")
+				.Length(3, 50).WithMessage("O nome deve conter entre 3 e 50 caracteres.")
+				.Matches("^[0-9 a-zA-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ]+$").WithMessage("O nome contém caracteres inválidos.");
 
-			RuleFor(u => u.Cpf)
-				.NotEmpty().WithMessage("O CPF do Usuário deve ser informado.")
-				.Length(11).WithMessage("O CPF do Usuário deve conter exatamente 11 caracteres.")
+			RuleFor(p => p.Materia)
+				.NotEmpty().WithMessage("A matéria deve ser informada.");
+
+			RuleFor(a => a.Cpf)
+				.NotEmpty().WithMessage("O CPF deve ser informado.")
+				.Length(11).WithMessage("O CPF deve conter exatamente 11 caracteres.")
 				.Must(ValidarCpf).WithMessage("CPF inválido.");
 
-			RuleFor(u => u.Senha)
-				.NotEmpty().WithMessage("A senha do Usuário deve ser informada.")
-				.Length(6, 16).WithMessage("A senha do Usuário de conter entre 6 e 16 caracteres.");
+			RuleFor(a => a.Senha)
+				.NotEmpty().WithMessage("A senha deve ser informada.")
+				.Length(6, 16).WithMessage("A senha de conter entre 6 e 16 caracteres.");
 
-			RuleFor(u => u.Tipo)
-				.NotEmpty().WithMessage("O tipo do Usuário deve ser informado.");
+			RuleFor(p => p.Sala)
+				.NotEmpty().WithMessage("A sala deve ser informada.");
 		}
 
 		public static bool ValidarCpf(string cpf)

@@ -1,22 +1,23 @@
 ﻿using Program.Entities;
-using Program.Models.Administrador;
+using Program.Models.Professor;
 
 namespace Program.Services
 {
-    public sealed class UsuarioService
+    public sealed class ProfessorService
     {
-
-        public int Create(UsuarioRequestModel requestModel)
+        public int Create(ProfessorRequestModel requestModel)
         {
-            var usuario = new Usuario()
+            var processor = new Professor()
             {
                 Nome = requestModel.Nome,
+                Materia = requestModel.Materia,
                 Cpf = requestModel.Cpf,
                 Senha = requestModel.Senha,
+                Sala = requestModel.Sala,
                 Tipo = requestModel.Tipo
             };
 
-            usuario.Validar();
+            processor.Validar();
 
             return 1;
         }

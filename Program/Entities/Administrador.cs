@@ -3,7 +3,7 @@ using Program.Validations;
 
 namespace Program.Entities
 {
-    public class Usuario
+    public class Administrador
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -14,8 +14,8 @@ namespace Program.Entities
 
         public void Validar()
         {
-            var fornecedorValidator = new UsuarioValidator();
-            fornecedorValidator.ValidateAndThrow(this);
+            var administradorValidator = new AdministradorValidator();
+            administradorValidator.ValidateAndThrow(this);
         }
     }
 }
