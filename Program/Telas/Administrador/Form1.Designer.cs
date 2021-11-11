@@ -36,6 +36,7 @@
             this.txtNomeAdministrador = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtSenhaAdministrador = new System.Windows.Forms.TextBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -68,9 +69,9 @@
             // 
             // btnCadastrarAdministrador
             // 
-            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(100, 327);
+            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(190, 334);
             this.btnCadastrarAdministrador.Name = "btnCadastrarAdministrador";
-            this.btnCadastrarAdministrador.Size = new System.Drawing.Size(165, 59);
+            this.btnCadastrarAdministrador.Size = new System.Drawing.Size(116, 59);
             this.btnCadastrarAdministrador.TabIndex = 4;
             this.btnCadastrarAdministrador.Text = "Cadastrar";
             this.btnCadastrarAdministrador.UseVisualStyleBackColor = true;
@@ -106,15 +107,26 @@
             this.txtSenhaAdministrador.Size = new System.Drawing.Size(237, 23);
             this.txtSenhaAdministrador.TabIndex = 7;
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(69, 334);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(116, 59);
+            this.btnVoltar.TabIndex = 8;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 438);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnCadastrarAdministrador);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenhaAdministrador);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnCadastrarAdministrador);
             this.Controls.Add(this.txtNomeAdministrador);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -136,6 +148,7 @@
         private System.Windows.Forms.TextBox txtNomeAdministrador;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtSenhaAdministrador;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
 

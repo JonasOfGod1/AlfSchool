@@ -1,5 +1,6 @@
 ﻿using Program.Models.Aluno;
 using Program.Services;
+using Program.Telas.Administrador;
 using System;
 using System.Windows.Forms;
 
@@ -31,6 +32,13 @@ namespace Program.Telas
             txtCpfAluno.Text = "";
             txtSenhaAluno.Text = "";
             cbbSalaAluno.Text = "";
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            var menuAdministrador = new MenuAdministrador();
+            menuAdministrador.ShowDialog();
         }
     }
 }

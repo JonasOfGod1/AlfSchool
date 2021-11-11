@@ -40,13 +40,14 @@
             this.txtCpfProfessor = new System.Windows.Forms.TextBox();
             this.cbbMateriaProfessor = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCadastrarProfessor
             // 
-            this.btnCadastrarProfessor.Location = new System.Drawing.Point(102, 375);
+            this.btnCadastrarProfessor.Location = new System.Drawing.Point(193, 375);
             this.btnCadastrarProfessor.Name = "btnCadastrarProfessor";
-            this.btnCadastrarProfessor.Size = new System.Drawing.Size(170, 62);
+            this.btnCadastrarProfessor.Size = new System.Drawing.Size(115, 62);
             this.btnCadastrarProfessor.TabIndex = 0;
             this.btnCadastrarProfessor.Text = "Cadastrar";
             this.btnCadastrarProfessor.UseVisualStyleBackColor = true;
@@ -168,12 +169,23 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Matéria";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(62, 375);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(115, 62);
+            this.btnVoltar.TabIndex = 6;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // CadastrarProfessor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 473);
             this.Controls.Add(this.btnCadastrarProfessor);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -206,5 +218,6 @@
         private System.Windows.Forms.TextBox txtCpfProfessor;
         private System.Windows.Forms.ComboBox cbbMateriaProfessor;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

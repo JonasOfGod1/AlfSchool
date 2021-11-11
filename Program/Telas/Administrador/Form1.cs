@@ -1,5 +1,6 @@
 ﻿using Program.Models.Administrador;
 using Program.Services;
+using Program.Telas.Administrador;
 using System;
 using System.Windows.Forms;
 
@@ -29,6 +30,13 @@ namespace Program
             txtNomeAdministrador.Text = "";
             txtCpfAdministrador.Text = "";
             txtSenhaAdministrador.Text = "";
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            var menuAdministrador = new MenuAdministrador();
+            menuAdministrador.ShowDialog();
         }
     }
 }
