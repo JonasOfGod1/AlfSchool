@@ -32,21 +32,22 @@
             this.btnCadastrarAdministrador = new System.Windows.Forms.Button();
             this.btnCadastrarProfessor = new System.Windows.Forms.Button();
             this.btnCadastrarAluno = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(143, 56);
+            this.label1.Location = new System.Drawing.Point(70, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 37);
+            this.label1.Size = new System.Drawing.Size(261, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Menu";
+            this.label1.Text = "Menu Administrador";
             // 
             // btnCadastrarAdministrador
             // 
-            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(93, 145);
+            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(94, 126);
             this.btnCadastrarAdministrador.Name = "btnCadastrarAdministrador";
             this.btnCadastrarAdministrador.Size = new System.Drawing.Size(193, 69);
             this.btnCadastrarAdministrador.TabIndex = 1;
@@ -56,7 +57,7 @@
             // 
             // btnCadastrarProfessor
             // 
-            this.btnCadastrarProfessor.Location = new System.Drawing.Point(93, 234);
+            this.btnCadastrarProfessor.Location = new System.Drawing.Point(94, 215);
             this.btnCadastrarProfessor.Name = "btnCadastrarProfessor";
             this.btnCadastrarProfessor.Size = new System.Drawing.Size(193, 69);
             this.btnCadastrarProfessor.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             // btnCadastrarAluno
             // 
-            this.btnCadastrarAluno.Location = new System.Drawing.Point(93, 326);
+            this.btnCadastrarAluno.Location = new System.Drawing.Point(94, 307);
             this.btnCadastrarAluno.Name = "btnCadastrarAluno";
             this.btnCadastrarAluno.Size = new System.Drawing.Size(193, 69);
             this.btnCadastrarAluno.TabIndex = 1;
@@ -74,14 +75,25 @@
             this.btnCadastrarAluno.UseVisualStyleBackColor = true;
             this.btnCadastrarAluno.Click += new System.EventHandler(this.btnCadastrarAluno_Click);
             // 
+            // btnLogout
+            // 
+            this.btnLogout.Location = new System.Drawing.Point(94, 396);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(193, 69);
+            this.btnLogout.TabIndex = 2;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // MenuAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 444);
-            this.Controls.Add(this.btnCadastrarAluno);
-            this.Controls.Add(this.btnCadastrarProfessor);
+            this.ClientSize = new System.Drawing.Size(389, 493);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnCadastrarAdministrador);
+            this.Controls.Add(this.btnCadastrarProfessor);
+            this.Controls.Add(this.btnCadastrarAluno);
             this.Controls.Add(this.label1);
             this.Name = "MenuAdministrador";
             this.Text = "MenuAdministrador";
@@ -96,5 +108,6 @@
         private System.Windows.Forms.Button btnCadastrarAdministrador;
         private System.Windows.Forms.Button btnCadastrarProfessor;
         private System.Windows.Forms.Button btnCadastrarAluno;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

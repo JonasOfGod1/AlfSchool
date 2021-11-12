@@ -1,24 +1,60 @@
 ﻿using Program.Entities;
 using Program.Models.Administrador;
+using Program.Telas.Administrador;
+using System.Collections.Generic;
 
 namespace Program.Services
 {
     public sealed class AdministradorService
     {
-
-        public int Create(AdministradorRequestModel requestModel)
+        public void Create(AdministradorRequestModel requestModel)
         {
-            var administrador = new Administrador()
+
+        }
+
+        public Administrador Logar(string cpf, string senha)
+        {
+            var administradores = new List<Administrador>();
+
+            var administrador1 = new Administrador()
             {
-                Nome = requestModel.Nome,
-                Cpf = requestModel.Cpf,
-                Senha = requestModel.Senha,
-                Tipo = requestModel.Tipo
+                Id = 1,
+                Nome = "Master",
+                Cpf = "68214128048",
+                Senha = "master123",
+                Tipo = "Administrador"
             };
 
-            administrador.Validar();
+            var administrador2 = new Administrador()
+            {
+                Id = 2,
+                Nome = "Rosane Aguilar",
+                Cpf = "77695293016",
+                Senha = "rosane.aguilar",
+                Tipo = "Administrador"
+            };
 
-            return 1;
+            var administrador3 = new Administrador()
+            {
+                Id = 3,
+                Nome = "Antonio de Souza",
+                Cpf = "76574341043",
+                Senha = "antonio.souza",
+                Tipo = "Administrador"
+            };
+
+            administradores.Add(administrador1);
+            administradores.Add(administrador2);
+            administradores.Add(administrador3);
+
+            foreach (var item in administradores)
+            {
+                if (cpf == item.Cpf && senha == item.Senha)
+                {
+                    return item;
+                }
+            }
+            return null;
         }
     }
 }

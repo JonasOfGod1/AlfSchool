@@ -6,6 +6,5 @@ namespace Program
 {
     public class DbContext
     {
-
     }
 }

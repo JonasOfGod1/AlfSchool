@@ -1,3 +1,4 @@
+using Program.Telas;
 using Program.Telas.Administrador;
 using System;
 using System.Windows.Forms;
@@ -15,7 +16,7 @@ namespace Program
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuAdministrador());
+            Application.Run(new TelaInicial());
         }
     }
 }
