@@ -25,11 +25,21 @@ namespace Program
                 Tipo = "Administrador"
             };
 
-            admService.Create(admRequest);
+            try
+            {
+                admService.Create(admRequest);
 
-            txtNomeAdministrador.Text = "";
-            txtCpfAdministrador.Text = "";
-            txtSenhaAdministrador.Text = "";
+                txtNomeAdministrador.Text = "";
+                txtCpfAdministrador.Text = "";
+                txtSenhaAdministrador.Text = "";
+
+                lblErrorOrSucess.Text = "Administrador cadastrado com sucesso.";
+            }
+            catch (Exception)
+            {
+                lblErrorOrSucess.Text = "Alguma informação está incorreta!";
+            }
+           
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

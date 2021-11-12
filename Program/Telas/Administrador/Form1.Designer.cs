@@ -37,6 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtSenhaAdministrador = new System.Windows.Forms.TextBox();
             this.btnVoltar = new System.Windows.Forms.Button();
+            this.lblErrorOrSucess = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -69,7 +70,7 @@
             // 
             // btnCadastrarAdministrador
             // 
-            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(190, 334);
+            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(190, 341);
             this.btnCadastrarAdministrador.Name = "btnCadastrarAdministrador";
             this.btnCadastrarAdministrador.Size = new System.Drawing.Size(116, 59);
             this.btnCadastrarAdministrador.TabIndex = 4;
@@ -109,7 +110,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(69, 334);
+            this.btnVoltar.Location = new System.Drawing.Point(69, 341);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(116, 59);
             this.btnVoltar.TabIndex = 8;
@@ -117,13 +118,22 @@
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
+            // lblErrorOrSucess
+            // 
+            this.lblErrorOrSucess.AutoSize = true;
+            this.lblErrorOrSucess.Location = new System.Drawing.Point(69, 300);
+            this.lblErrorOrSucess.Name = "lblErrorOrSucess";
+            this.lblErrorOrSucess.Size = new System.Drawing.Size(0, 15);
+            this.lblErrorOrSucess.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 438);
-            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.lblErrorOrSucess);
             this.Controls.Add(this.btnCadastrarAdministrador);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSenhaAdministrador);
             this.Controls.Add(this.label5);
@@ -149,6 +159,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtSenhaAdministrador;
         private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Label lblErrorOrSucess;
     }
 }
 

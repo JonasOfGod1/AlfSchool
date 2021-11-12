@@ -58,12 +58,21 @@ namespace Program.Telas
                 Tipo = "Aluno"
             };
 
-            alunoService.Create(alunoRequest);
+            try
+            {
+                alunoService.Create(alunoRequest);
 
-            txtNomeAluno.Text = "";
-            txtCpfAluno.Text = "";
-            txtSenhaAluno.Text = "";
-            cbbSalaAluno.Text = "";
+                txtNomeAluno.Text = "";
+                txtCpfAluno.Text = "";
+                txtSenhaAluno.Text = "";
+                cbbSalaAluno.Text = "";
+
+                lblErroOrSucess.Text = "Aluno Cadastrado com sucesso.";
+            }
+            catch (Exception)
+            {
+                lblErroOrSucess.Text = "Alguma informação está incorreta!";
+            }
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

@@ -39,11 +39,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
+            this.lblErroOrSucess = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCadastrarAluno
             // 
-            this.btnCadastrarAluno.Location = new System.Drawing.Point(199, 351);
+            this.btnCadastrarAluno.Location = new System.Drawing.Point(199, 368);
             this.btnCadastrarAluno.Name = "btnCadastrarAluno";
             this.btnCadastrarAluno.Size = new System.Drawing.Size(112, 61);
             this.btnCadastrarAluno.TabIndex = 0;
@@ -141,7 +142,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(73, 351);
+            this.btnVoltar.Location = new System.Drawing.Point(73, 368);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(112, 61);
             this.btnVoltar.TabIndex = 5;
@@ -149,13 +150,23 @@
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
+            // lblErroOrSucess
+            // 
+            this.lblErroOrSucess.AutoSize = true;
+            this.lblErroOrSucess.ForeColor = System.Drawing.Color.Black;
+            this.lblErroOrSucess.Location = new System.Drawing.Point(73, 331);
+            this.lblErroOrSucess.Name = "lblErroOrSucess";
+            this.lblErroOrSucess.Size = new System.Drawing.Size(0, 15);
+            this.lblErroOrSucess.TabIndex = 6;
+            // 
             // CadastrarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 442);
-            this.Controls.Add(this.btnCadastrarAluno);
+            this.ClientSize = new System.Drawing.Size(399, 463);
+            this.Controls.Add(this.lblErroOrSucess);
             this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnCadastrarAluno);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -185,5 +196,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Label lblErroOrSucess;
     }
 }

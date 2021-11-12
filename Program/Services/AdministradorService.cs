@@ -1,6 +1,5 @@
 ﻿using Program.Entities;
 using Program.Models.Administrador;
-using Program.Telas.Administrador;
 using System.Collections.Generic;
 
 namespace Program.Services
@@ -9,7 +8,15 @@ namespace Program.Services
     {
         public void Create(AdministradorRequestModel requestModel)
         {
+            var administrador = new Administrador()
+            {
+                Nome = requestModel.Nome,
+                Cpf = requestModel.Cpf,
+                Senha = requestModel.Senha,
+                Tipo = requestModel.Tipo
+            };
 
+            administrador.Validar();
         }
 
         public Administrador Logar(string cpf, string senha)

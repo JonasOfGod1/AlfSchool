@@ -8,7 +8,17 @@ namespace Program.Services
     {
         public void Create(ProfessorRequestModel requestModel)
         {
+            var professor = new Professor()
+            {
+                Nome = requestModel.Nome,
+                Materia = requestModel.Materia,
+                Cpf = requestModel.Cpf,
+                Senha = requestModel.Senha,
+                Sala = requestModel.Sala,
+                Tipo = requestModel.Tipo
+            };
 
+            professor.Validar();
         }
 
         public Professor Logar(string cpf, string senha)

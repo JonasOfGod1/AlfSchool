@@ -27,13 +27,22 @@ namespace Program.Telas
                 Tipo = "Professor"
             };
 
-            professorService.Create(professorRequest);
+            try
+            {
+                professorService.Create(professorRequest);
 
-            txtNomeProfessor.Text = "";
-            txtCpfProfessor.Text = "";
-            txtSenhaProfessor.Text = "";
-            cbbMateriaProfessor.Text = "";
-            cbbSalaProfessor.Text = "";
+                txtNomeProfessor.Text = "";
+                txtCpfProfessor.Text = "";
+                txtSenhaProfessor.Text = "";
+                cbbMateriaProfessor.Text = "";
+                cbbSalaProfessor.Text = "";
+
+                lblErrorOrSucess.Text = "Professor cadastrado com sucesso.";
+            }
+            catch (Exception)
+            {
+                lblErrorOrSucess.Text = "Alguma informação está incorreta!";
+            }
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
