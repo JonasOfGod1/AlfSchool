@@ -1,5 +1,6 @@
 ﻿using Program.Entities;
 using Program.Models.Aluno;
+using Program.Telas.Aluno;
 using System.Collections.Generic;
 
 namespace Program.Services

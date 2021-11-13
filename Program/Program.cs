@@ -1,5 +1,4 @@
 using Program.Telas;
-using Program.Telas.Administrador;
 using System;
 using System.Windows.Forms;
 

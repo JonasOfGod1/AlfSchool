@@ -39,7 +39,6 @@ namespace Program
             {
                 lblErrorOrSucess.Text = "Alguma informação está incorreta!";
             }
-           
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
