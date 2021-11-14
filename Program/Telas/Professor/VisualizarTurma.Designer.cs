@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 427);
+            this.ClientSize = new System.Drawing.Size(330, 420);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label1);
             this.Name = "VisualizarTurma";

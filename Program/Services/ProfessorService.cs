@@ -21,7 +21,7 @@ namespace Program.Services
             professor.Validar();
         }
 
-        public Professor Logar(string cpf, string senha)
+        public Professor Autenticar(string cpf, string senha)
         {
             var professores = new List<Professor>();
 

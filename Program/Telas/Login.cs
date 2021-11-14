@@ -20,9 +20,9 @@ namespace Program.Telas
             var professorService = new ProfessorService();
             var alunoService = new AlunoService();
 
-            var administrador = admService.Logar(txtCpf.Text, txtSenha.Text);
-            var professor = professorService.Logar(txtCpf.Text, txtSenha.Text);
-            var aluno = alunoService.Logar(txtCpf.Text, txtSenha.Text);
+            var administrador = admService.Autenticar(txtCpf.Text, txtSenha.Text);
+            var professor = professorService.Autenticar(txtCpf.Text, txtSenha.Text);
+            var aluno = alunoService.Autenticar(txtCpf.Text, txtSenha.Text);
 
             if (administrador != null)
             {

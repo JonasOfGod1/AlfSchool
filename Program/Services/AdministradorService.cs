@@ -19,7 +19,7 @@ namespace Program.Services
             administrador.Validar();
         }
 
-        public Administrador Logar(string cpf, string senha)
+        public Administrador Autenticar(string cpf, string senha)
         {
             var administradores = new List<Administrador>();
 

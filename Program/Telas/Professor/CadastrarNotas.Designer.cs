@@ -90,7 +90,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(160, 131);
+            this.label4.Location = new System.Drawing.Point(160, 118);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 28);
             this.label4.TabIndex = 5;
@@ -129,6 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 465);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblErrorOrSucess);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnCadastrar);
@@ -136,7 +137,6 @@
             this.Controls.Add(this.txtNota);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Name = "CadastrarNotas";
             this.Text = "CadastrarNotas";

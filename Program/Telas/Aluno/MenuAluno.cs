@@ -16,5 +16,12 @@ namespace Program.Telas.Aluno
             var login = new Login();
             login.ShowDialog();
         }
+
+        private void btnVisualizarNotas_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            var visualizarNotas = new VisualizarNotas();
+            visualizarNotas.ShowDialog();
+        }
     }
 }

@@ -21,7 +21,7 @@ namespace Program.Services
             aluno.Validar();
         }
 
-        public Aluno Logar(string cpf, string senha)
+        public Aluno Autenticar(string cpf, string senha)
         {
             var alunos = new List<Aluno>();
 
