@@ -23,5 +23,12 @@ namespace Program.Telas.Aluno
             var visualizarNotas = new VisualizarNotas();
             visualizarNotas.ShowDialog();
         }
+
+        private void btnVisualizarTurma_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            var visualizarTurma = new VisualizarTurma();
+            visualizarTurma.ShowDialog();
+        }
     }
 }

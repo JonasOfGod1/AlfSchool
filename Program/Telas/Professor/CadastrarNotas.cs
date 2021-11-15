@@ -16,14 +16,14 @@ namespace Program.Telas.Professor
         {
             var notaService = new NotaService();
 
-            var requestModel = new NotaRequestModel()
+            try
             {
-                Valor = Convert.ToDouble(txtNota.Text)
-            };
+                var requestModel = new NotaRequestModel()
+                {
+                    Valor = Convert.ToDouble(txtNota.Text)
+                };
 
-            if (cbbAluno.Text != "")
-            {
-                try
+                if (cbbAluno.Text != "")
                 {
                     notaService.Create(requestModel);
 
@@ -32,12 +32,12 @@ namespace Program.Telas.Professor
 
                     lblErrorOrSucess.Text = "Nota Cadastrada com sucesso.";
                 }
-                catch (Exception)
+                else
                 {
                     lblErrorOrSucess.Text = "Alguma informação está incorreta!";
                 }
             }
-            else
+            catch (Exception)
             {
                 lblErrorOrSucess.Text = "Alguma informação está incorreta!";
             }

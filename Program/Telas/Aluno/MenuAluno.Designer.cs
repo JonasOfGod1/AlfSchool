@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnVisualizarNotas = new System.Windows.Forms.Button();
+            this.btnVisualizarTurma = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -63,11 +64,22 @@
             this.btnVisualizarNotas.UseVisualStyleBackColor = true;
             this.btnVisualizarNotas.Click += new System.EventHandler(this.btnVisualizarNotas_Click);
             // 
+            // btnVisualizarTurma
+            // 
+            this.btnVisualizarTurma.Location = new System.Drawing.Point(72, 213);
+            this.btnVisualizarTurma.Name = "btnVisualizarTurma";
+            this.btnVisualizarTurma.Size = new System.Drawing.Size(175, 58);
+            this.btnVisualizarTurma.TabIndex = 3;
+            this.btnVisualizarTurma.Text = "Visualizar Turma";
+            this.btnVisualizarTurma.UseVisualStyleBackColor = true;
+            this.btnVisualizarTurma.Click += new System.EventHandler(this.btnVisualizarTurma_Click);
+            // 
             // MenuAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(316, 428);
+            this.Controls.Add(this.btnVisualizarTurma);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnVisualizarNotas);
@@ -83,5 +95,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnVisualizarNotas;
+        private System.Windows.Forms.Button btnVisualizarTurma;
     }
 }

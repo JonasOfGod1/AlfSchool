@@ -31,7 +31,6 @@ namespace Program.Services
                 Senha = "master123",
                 Tipo = "Administrador"
             };
-
             var administrador2 = new Administrador()
             {
                 Id = 2,
@@ -40,7 +39,6 @@ namespace Program.Services
                 Senha = "rosane.aguilar",
                 Tipo = "Administrador"
             };
-
             var administrador3 = new Administrador()
             {
                 Id = 3,

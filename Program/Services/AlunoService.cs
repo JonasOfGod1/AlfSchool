@@ -37,18 +37,18 @@ namespace Program.Services
             var aluno2 = new Aluno()
             {
                 Id = 2,
-                Nome = "Carlos da Silva",
+                Nome = "Amanda da Silva",
                 Cpf = "86451430030",
-                Senha = "carlos.silva",
+                Senha = "amanda.silva",
                 Sala = "302",
                 Tipo = "Aluno"
             };
             var aluno3 = new Aluno()
             {
                 Id = 3,
-                Nome = "Lenadro de Souza",
+                Nome = "Eduarda de Souza",
                 Cpf = "62091592064",
-                Senha = "leandro.souza",
+                Senha = "eduarda.souza",
                 Sala = "302",
                 Tipo = "Aluno"
             };
@@ -64,9 +64,9 @@ namespace Program.Services
             var aluno5 = new Aluno()
             {
                 Id = 5,
-                Nome = "Douglas Castro",
+                Nome = "Jéssica Castro",
                 Cpf = "30959252045",
-                Senha = "douglas.castro",
+                Senha = "jessica.castro",
                 Sala = "302",
                 Tipo = "Aluno"
             };
@@ -100,9 +100,9 @@ namespace Program.Services
             var aluno9 = new Aluno()
             {
                 Id = 9,
-                Nome = "Arthur Pereiras",
+                Nome = "Maria Pereira",
                 Cpf = "89519903038",
-                Senha = "arthur.pereira",
+                Senha = "maria.pereira",
                 Sala = "302",
                 Tipo = "Aluno"
             };
@@ -127,9 +127,9 @@ namespace Program.Services
             var aluno12 = new Aluno()
             {
                 Id = 12,
-                Nome = "Gabriela da Rosa",
+                Nome = "João Rodrigues",
                 Cpf = "33929266040",
-                Senha = "gabriela.rosa",
+                Senha = "joao.rodrigues",
                 Sala = "302",
                 Tipo = "Aluno"
             };
