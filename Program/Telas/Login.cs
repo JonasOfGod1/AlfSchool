@@ -26,21 +26,18 @@ namespace Program.Telas
 
             if (administrador != null)
             {
-                this.Visible = false;
-                var menuAdm = new MenuAdministrador();
-                menuAdm.ShowDialog();
+                new MenuAdministrador().Show();
+                this.Hide();
             }
             else if (professor != null)
             {
-                this.Visible = false;
-                var menuProfessor = new MenuProfessor();
-                menuProfessor.ShowDialog();
+                new MenuProfessor().ShowDialog();
+                this.Hide();
             }
             else if (aluno != null)
             {
-                this.Visible = false;
-                var menuAluno = new MenuAluno();
-                menuAluno.ShowDialog();
+                new MenuAluno().ShowDialog();
+                this.Hide();
             }
             else
             {

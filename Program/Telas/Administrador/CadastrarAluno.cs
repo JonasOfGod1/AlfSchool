@@ -52,9 +52,8 @@ namespace Program.Telas
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            var menuAdministrador = new MenuAdministrador();
-            menuAdministrador.ShowDialog();
+            new MenuAdministrador().ShowDialog();
+            this.Hide();
         }
     }
 }
