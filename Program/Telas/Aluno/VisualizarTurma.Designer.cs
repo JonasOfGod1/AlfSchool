@@ -64,7 +64,6 @@
             this.textBox1.Size = new System.Drawing.Size(222, 23);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Amanda Rosa";
-            this.textBox1.Visible = false;
             // 
             // textBox2
             // 
@@ -74,7 +73,6 @@
             this.textBox2.Size = new System.Drawing.Size(222, 23);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Eduarda de Souza";
-            this.textBox2.Visible = false;
             // 
             // textBox3
             // 
@@ -84,7 +82,6 @@
             this.textBox3.Size = new System.Drawing.Size(222, 23);
             this.textBox3.TabIndex = 1;
             this.textBox3.Text = "Leonardo Andrade";
-            this.textBox3.Visible = false;
             // 
             // textBox4
             // 
@@ -94,7 +91,6 @@
             this.textBox4.Size = new System.Drawing.Size(222, 23);
             this.textBox4.TabIndex = 1;
             this.textBox4.Text = "Henrique Nunes";
-            this.textBox4.Visible = false;
             // 
             // textBox5
             // 
@@ -104,7 +100,6 @@
             this.textBox5.Size = new System.Drawing.Size(222, 23);
             this.textBox5.TabIndex = 1;
             this.textBox5.Text = "Geovana da Cruz";
-            this.textBox5.Visible = false;
             // 
             // textBox6
             // 
@@ -114,7 +109,6 @@
             this.textBox6.Size = new System.Drawing.Size(222, 23);
             this.textBox6.TabIndex = 1;
             this.textBox6.Text = "Gustavo de Souza";
-            this.textBox6.Visible = false;
             // 
             // textBox7
             // 
@@ -124,7 +118,6 @@
             this.textBox7.Size = new System.Drawing.Size(222, 23);
             this.textBox7.TabIndex = 1;
             this.textBox7.Text = "Lucas da Silva";
-            this.textBox7.Visible = false;
             // 
             // textBox8
             // 
@@ -134,7 +127,6 @@
             this.textBox8.Size = new System.Drawing.Size(222, 23);
             this.textBox8.TabIndex = 1;
             this.textBox8.Text = "Maria Pereira";
-            this.textBox8.Visible = false;
             // 
             // textBox9
             // 
@@ -144,7 +136,6 @@
             this.textBox9.Size = new System.Drawing.Size(222, 23);
             this.textBox9.TabIndex = 1;
             this.textBox9.Text = "João Rodrigues";
-            this.textBox9.Visible = false;
             // 
             // textBox10
             // 
@@ -154,7 +145,6 @@
             this.textBox10.Size = new System.Drawing.Size(222, 23);
             this.textBox10.TabIndex = 1;
             this.textBox10.Text = "Alice Barbosa";
-            this.textBox10.Visible = false;
             // 
             // textBox11
             // 
@@ -164,7 +154,6 @@
             this.textBox11.Size = new System.Drawing.Size(222, 23);
             this.textBox11.TabIndex = 1;
             this.textBox11.Text = "Jéssica Castro";
-            this.textBox11.Visible = false;
             // 
             // textBox12
             // 
@@ -174,7 +163,6 @@
             this.textBox12.Size = new System.Drawing.Size(222, 23);
             this.textBox12.TabIndex = 1;
             this.textBox12.Text = "Julia Vargas";
-            this.textBox12.Visible = false;
             // 
             // textBox13
             // 
@@ -184,7 +172,6 @@
             this.textBox13.Size = new System.Drawing.Size(222, 23);
             this.textBox13.TabIndex = 1;
             this.textBox13.Text = "Letícia Rodrigues";
-            this.textBox13.Visible = false;
             // 
             // textBox14
             // 
@@ -194,7 +181,6 @@
             this.textBox14.Size = new System.Drawing.Size(222, 23);
             this.textBox14.TabIndex = 1;
             this.textBox14.Text = "Pablo Vargas";
-            this.textBox14.Visible = false;
             // 
             // btnVoltar
             // 

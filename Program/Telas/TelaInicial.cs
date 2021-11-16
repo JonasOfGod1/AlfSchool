@@ -12,8 +12,8 @@ namespace Program.Telas
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            new Login().Show();
             this.Hide();
+            new Login().Show();
         }
     }
 }

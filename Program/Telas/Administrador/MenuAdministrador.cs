@@ -12,26 +12,26 @@ namespace Program.Telas.Administrador
 
         private void btnCadastrarAdministrador_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
             this.Hide();
+            new Form1().Show();
         }
 
         private void btnCadastrarProfessor_Click(object sender, EventArgs e)
         {
-            new CadastrarProfessor().Show();
             this.Hide();
+            new CadastrarProfessor().Show();
         }
 
         private void btnCadastrarAluno_Click(object sender, EventArgs e)
         {
-            new CadastrarAluno().Show();
             this.Hide();
+            new CadastrarAluno().Show();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            new Login().Show();
             this.Hide();
+            new Login().Show();
         }
     }
 }

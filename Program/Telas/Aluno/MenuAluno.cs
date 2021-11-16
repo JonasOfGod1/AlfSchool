@@ -12,20 +12,20 @@ namespace Program.Telas.Aluno
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            new Login().ShowDialog();
             this.Hide();
+            new Login().ShowDialog();
         }
 
         private void btnVisualizarNotas_Click(object sender, EventArgs e)
         {
-            new VisualizarNotas().ShowDialog();
             this.Hide();
+            new VisualizarNotas().ShowDialog();
         }
 
         private void btnVisualizarTurma_Click(object sender, EventArgs e)
         {
-            new VisualizarTurma().ShowDialog();
             this.Hide();
+            new VisualizarTurma().ShowDialog();
         }
     }
 }

@@ -12,8 +12,8 @@ namespace Program.Telas.Aluno
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            new MenuAluno().ShowDialog();
             this.Hide();
+            new MenuAluno().ShowDialog();
         }
     }
 }

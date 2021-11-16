@@ -45,8 +45,8 @@ namespace Program.Telas.Professor
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            new MenuProfessor().ShowDialog();
             this.Hide();
+            new MenuProfessor().ShowDialog();
         }
     }
 }

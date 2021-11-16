@@ -12,20 +12,20 @@ namespace Program.Telas.Professor
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            new Login().ShowDialog();
             this.Hide();
+            new Login().ShowDialog();
         }
 
         private void btnCadastrarNota_Click(object sender, EventArgs e)
         {
-            new CadastrarNotas().ShowDialog();
             this.Hide();
+            new CadastrarNotas().ShowDialog();
         }
 
         private void btnVisualizarTurma_Click(object sender, EventArgs e)
         {
-            new VisualizarTurma().ShowDialog();
             this.Hide();
+            new VisualizarTurma().ShowDialog();
         }
     }
 }
