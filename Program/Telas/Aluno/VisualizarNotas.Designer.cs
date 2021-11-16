@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(75, 40);
+            this.label1.Location = new System.Drawing.Point(53, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(207, 37);
             this.label1.TabIndex = 0;
@@ -67,7 +67,7 @@
             "Educação Física",
             "Inglês",
             "Artes"});
-            this.cbbMateria.Location = new System.Drawing.Point(75, 131);
+            this.cbbMateria.Location = new System.Drawing.Point(53, 130);
             this.cbbMateria.Name = "cbbMateria";
             this.cbbMateria.Size = new System.Drawing.Size(207, 23);
             this.cbbMateria.TabIndex = 1;
@@ -75,7 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(75, 113);
+            this.label2.Location = new System.Drawing.Point(53, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 2;
@@ -84,7 +84,7 @@
             // txtNota1
             // 
             this.txtNota1.Enabled = false;
-            this.txtNota1.Location = new System.Drawing.Point(75, 189);
+            this.txtNota1.Location = new System.Drawing.Point(53, 188);
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(207, 23);
             this.txtNota1.TabIndex = 3;
@@ -93,7 +93,7 @@
             // lblNota1
             // 
             this.lblNota1.AutoSize = true;
-            this.lblNota1.Location = new System.Drawing.Point(75, 171);
+            this.lblNota1.Location = new System.Drawing.Point(53, 170);
             this.lblNota1.Name = "lblNota1";
             this.lblNota1.Size = new System.Drawing.Size(42, 15);
             this.lblNota1.TabIndex = 4;
@@ -103,7 +103,7 @@
             // txtNota2
             // 
             this.txtNota2.Enabled = false;
-            this.txtNota2.Location = new System.Drawing.Point(75, 237);
+            this.txtNota2.Location = new System.Drawing.Point(53, 236);
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(207, 23);
             this.txtNota2.TabIndex = 3;
@@ -112,7 +112,7 @@
             // lblNota2
             // 
             this.lblNota2.AutoSize = true;
-            this.lblNota2.Location = new System.Drawing.Point(75, 219);
+            this.lblNota2.Location = new System.Drawing.Point(53, 218);
             this.lblNota2.Name = "lblNota2";
             this.lblNota2.Size = new System.Drawing.Size(42, 15);
             this.lblNota2.TabIndex = 4;
@@ -122,7 +122,7 @@
             // txtNota3
             // 
             this.txtNota3.Enabled = false;
-            this.txtNota3.Location = new System.Drawing.Point(75, 284);
+            this.txtNota3.Location = new System.Drawing.Point(53, 283);
             this.txtNota3.Name = "txtNota3";
             this.txtNota3.Size = new System.Drawing.Size(207, 23);
             this.txtNota3.TabIndex = 3;
@@ -131,7 +131,7 @@
             // lblNota3
             // 
             this.lblNota3.AutoSize = true;
-            this.lblNota3.Location = new System.Drawing.Point(75, 266);
+            this.lblNota3.Location = new System.Drawing.Point(53, 265);
             this.lblNota3.Name = "lblNota3";
             this.lblNota3.Size = new System.Drawing.Size(42, 15);
             this.lblNota3.TabIndex = 4;
@@ -141,7 +141,7 @@
             // txtNota4
             // 
             this.txtNota4.Enabled = false;
-            this.txtNota4.Location = new System.Drawing.Point(75, 331);
+            this.txtNota4.Location = new System.Drawing.Point(53, 330);
             this.txtNota4.Name = "txtNota4";
             this.txtNota4.Size = new System.Drawing.Size(207, 23);
             this.txtNota4.TabIndex = 3;
@@ -150,7 +150,7 @@
             // lblNota4
             // 
             this.lblNota4.AutoSize = true;
-            this.lblNota4.Location = new System.Drawing.Point(75, 313);
+            this.lblNota4.Location = new System.Drawing.Point(53, 312);
             this.lblNota4.Name = "lblNota4";
             this.lblNota4.Size = new System.Drawing.Size(42, 15);
             this.lblNota4.TabIndex = 4;
@@ -159,7 +159,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(52, 387);
+            this.btnVoltar.Location = new System.Drawing.Point(30, 386);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(122, 52);
             this.btnVoltar.TabIndex = 5;
@@ -169,7 +169,7 @@
             // 
             // btnFiltrar
             // 
-            this.btnFiltrar.Location = new System.Drawing.Point(180, 387);
+            this.btnFiltrar.Location = new System.Drawing.Point(158, 386);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(122, 52);
             this.btnFiltrar.TabIndex = 6;
@@ -181,20 +181,20 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 463);
-            this.Controls.Add(this.btnFiltrar);
-            this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.cbbMateria);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtNota1);
-            this.Controls.Add(this.lblNota1);
-            this.Controls.Add(this.lblNota2);
-            this.Controls.Add(this.txtNota2);
-            this.Controls.Add(this.lblNota3);
-            this.Controls.Add(this.txtNota3);
-            this.Controls.Add(this.lblNota4);
-            this.Controls.Add(this.txtNota4);
+            this.ClientSize = new System.Drawing.Size(315, 477);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNota4);
+            this.Controls.Add(this.lblNota4);
+            this.Controls.Add(this.txtNota3);
+            this.Controls.Add(this.lblNota3);
+            this.Controls.Add(this.txtNota2);
+            this.Controls.Add(this.lblNota2);
+            this.Controls.Add(this.lblNota1);
+            this.Controls.Add(this.txtNota1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cbbMateria);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnFiltrar);
             this.Name = "VisualizarNotas";
             this.Text = "VisualizarNotas";
             this.ResumeLayout(false);

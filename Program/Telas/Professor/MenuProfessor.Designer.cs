@@ -38,7 +38,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(83, 49);
+            this.label1.Location = new System.Drawing.Point(61, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 37);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(83, 293);
+            this.btnLogout.Location = new System.Drawing.Point(61, 293);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(201, 66);
             this.btnLogout.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // btnCadastrarNota
             // 
-            this.btnCadastrarNota.Location = new System.Drawing.Point(83, 129);
+            this.btnCadastrarNota.Location = new System.Drawing.Point(61, 129);
             this.btnCadastrarNota.Name = "btnCadastrarNota";
             this.btnCadastrarNota.Size = new System.Drawing.Size(201, 66);
             this.btnCadastrarNota.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // btnVisualizarTurma
             // 
-            this.btnVisualizarTurma.Location = new System.Drawing.Point(83, 210);
+            this.btnVisualizarTurma.Location = new System.Drawing.Point(61, 210);
             this.btnVisualizarTurma.Name = "btnVisualizarTurma";
             this.btnVisualizarTurma.Size = new System.Drawing.Size(201, 66);
             this.btnVisualizarTurma.TabIndex = 3;
@@ -78,11 +78,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(366, 424);
-            this.Controls.Add(this.btnLogout);
-            this.Controls.Add(this.btnVisualizarTurma);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(318, 432);
             this.Controls.Add(this.btnCadastrarNota);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnVisualizarTurma);
+            this.Controls.Add(this.btnLogout);
             this.Name = "MenuProfessor";
             this.Text = "MenuProfessor";
             this.ResumeLayout(false);

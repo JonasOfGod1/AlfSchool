@@ -44,7 +44,7 @@
             // 
             // btnCadastrarAluno
             // 
-            this.btnCadastrarAluno.Location = new System.Drawing.Point(199, 368);
+            this.btnCadastrarAluno.Location = new System.Drawing.Point(170, 371);
             this.btnCadastrarAluno.Name = "btnCadastrarAluno";
             this.btnCadastrarAluno.Size = new System.Drawing.Size(112, 61);
             this.btnCadastrarAluno.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(89, 42);
+            this.label1.Location = new System.Drawing.Point(60, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(207, 37);
             this.label1.TabIndex = 1;
@@ -64,21 +64,21 @@
             // 
             // txtNomeAluno
             // 
-            this.txtNomeAluno.Location = new System.Drawing.Point(73, 124);
+            this.txtNomeAluno.Location = new System.Drawing.Point(44, 127);
             this.txtNomeAluno.Name = "txtNomeAluno";
             this.txtNomeAluno.Size = new System.Drawing.Size(238, 23);
             this.txtNomeAluno.TabIndex = 2;
             // 
             // txtCpfAluno
             // 
-            this.txtCpfAluno.Location = new System.Drawing.Point(73, 181);
+            this.txtCpfAluno.Location = new System.Drawing.Point(44, 184);
             this.txtCpfAluno.Name = "txtCpfAluno";
             this.txtCpfAluno.Size = new System.Drawing.Size(238, 23);
             this.txtCpfAluno.TabIndex = 2;
             // 
             // txtSenhaAluno
             // 
-            this.txtSenhaAluno.Location = new System.Drawing.Point(73, 238);
+            this.txtSenhaAluno.Location = new System.Drawing.Point(44, 241);
             this.txtSenhaAluno.Name = "txtSenhaAluno";
             this.txtSenhaAluno.Size = new System.Drawing.Size(238, 23);
             this.txtSenhaAluno.TabIndex = 2;
@@ -99,7 +99,7 @@
             "302",
             "303",
             "304"});
-            this.cbbSalaAluno.Location = new System.Drawing.Point(73, 296);
+            this.cbbSalaAluno.Location = new System.Drawing.Point(44, 299);
             this.cbbSalaAluno.Name = "cbbSalaAluno";
             this.cbbSalaAluno.Size = new System.Drawing.Size(238, 23);
             this.cbbSalaAluno.TabIndex = 3;
@@ -107,7 +107,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 106);
+            this.label2.Location = new System.Drawing.Point(44, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 4;
@@ -116,7 +116,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(73, 163);
+            this.label3.Location = new System.Drawing.Point(44, 166);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 15);
             this.label3.TabIndex = 4;
@@ -125,7 +125,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(73, 220);
+            this.label4.Location = new System.Drawing.Point(44, 223);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 15);
             this.label4.TabIndex = 4;
@@ -134,7 +134,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(73, 278);
+            this.label5.Location = new System.Drawing.Point(44, 281);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(28, 15);
             this.label5.TabIndex = 4;
@@ -142,7 +142,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(73, 368);
+            this.btnVoltar.Location = new System.Drawing.Point(44, 371);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(112, 61);
             this.btnVoltar.TabIndex = 5;
@@ -154,7 +154,7 @@
             // 
             this.lblErroOrSucess.AutoSize = true;
             this.lblErroOrSucess.ForeColor = System.Drawing.Color.Black;
-            this.lblErroOrSucess.Location = new System.Drawing.Point(73, 331);
+            this.lblErroOrSucess.Location = new System.Drawing.Point(80, 334);
             this.lblErroOrSucess.Name = "lblErroOrSucess";
             this.lblErroOrSucess.Size = new System.Drawing.Size(0, 15);
             this.lblErroOrSucess.TabIndex = 6;
@@ -163,19 +163,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 463);
+            this.ClientSize = new System.Drawing.Size(331, 487);
             this.Controls.Add(this.lblErroOrSucess);
-            this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.btnCadastrarAluno);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbbSalaAluno);
-            this.Controls.Add(this.txtSenhaAluno);
-            this.Controls.Add(this.txtNomeAluno);
-            this.Controls.Add(this.txtCpfAluno);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtCpfAluno);
+            this.Controls.Add(this.txtSenhaAluno);
+            this.Controls.Add(this.cbbSalaAluno);
+            this.Controls.Add(this.btnCadastrarAluno);
+            this.Controls.Add(this.txtNomeAluno);
+            this.Controls.Add(this.btnVoltar);
             this.Name = "CadastrarAluno";
             this.Text = "Cadastrar Aluno";
             this.ResumeLayout(false);

@@ -28,18 +28,18 @@ namespace Program.Services
             var aluno1 = new Aluno()
             {
                 Id = 1,
-                Nome = "Vitor da Rosa",
+                Nome = "Alan da Silva",
                 Cpf = "29284447003",
-                Senha = "vitor.rosa",
+                Senha = "alan.silva",
                 Sala = "302",
                 Tipo = "Aluno"
             };
             var aluno2 = new Aluno()
             {
                 Id = 2,
-                Nome = "Amanda da Silva",
+                Nome = "Amanda rosa",
                 Cpf = "86451430030",
-                Senha = "amanda.silva",
+                Senha = "amanda.rosa",
                 Sala = "302",
                 Tipo = "Aluno"
             };

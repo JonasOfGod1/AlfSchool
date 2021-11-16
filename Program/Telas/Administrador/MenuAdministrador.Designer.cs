@@ -39,7 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(70, 58);
+            this.label1.Location = new System.Drawing.Point(36, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(261, 37);
             this.label1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // btnCadastrarAdministrador
             // 
-            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(94, 126);
+            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(60, 121);
             this.btnCadastrarAdministrador.Name = "btnCadastrarAdministrador";
             this.btnCadastrarAdministrador.Size = new System.Drawing.Size(193, 69);
             this.btnCadastrarAdministrador.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnCadastrarProfessor
             // 
-            this.btnCadastrarProfessor.Location = new System.Drawing.Point(94, 215);
+            this.btnCadastrarProfessor.Location = new System.Drawing.Point(60, 210);
             this.btnCadastrarProfessor.Name = "btnCadastrarProfessor";
             this.btnCadastrarProfessor.Size = new System.Drawing.Size(193, 69);
             this.btnCadastrarProfessor.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             // btnCadastrarAluno
             // 
-            this.btnCadastrarAluno.Location = new System.Drawing.Point(94, 307);
+            this.btnCadastrarAluno.Location = new System.Drawing.Point(60, 302);
             this.btnCadastrarAluno.Name = "btnCadastrarAluno";
             this.btnCadastrarAluno.Size = new System.Drawing.Size(193, 69);
             this.btnCadastrarAluno.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(94, 396);
+            this.btnLogout.Location = new System.Drawing.Point(60, 391);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(193, 69);
             this.btnLogout.TabIndex = 2;
@@ -89,11 +89,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 493);
+            this.ClientSize = new System.Drawing.Size(330, 502);
             this.Controls.Add(this.btnLogout);
-            this.Controls.Add(this.btnCadastrarAdministrador);
             this.Controls.Add(this.btnCadastrarProfessor);
             this.Controls.Add(this.btnCadastrarAluno);
+            this.Controls.Add(this.btnCadastrarAdministrador);
             this.Controls.Add(this.label1);
             this.Name = "MenuAdministrador";
             this.Text = "MenuAdministrador";

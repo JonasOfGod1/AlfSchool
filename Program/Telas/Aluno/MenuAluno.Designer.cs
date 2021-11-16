@@ -38,7 +38,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(72, 31);
+            this.label1.Location = new System.Drawing.Point(77, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 37);
             this.label1.TabIndex = 0;
@@ -46,9 +46,9 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(72, 342);
+            this.btnLogout.Location = new System.Drawing.Point(60, 275);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(175, 58);
+            this.btnLogout.Size = new System.Drawing.Size(202, 69);
             this.btnLogout.TabIndex = 1;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btnVisualizarNotas
             // 
-            this.btnVisualizarNotas.Location = new System.Drawing.Point(72, 138);
+            this.btnVisualizarNotas.Location = new System.Drawing.Point(62, 125);
             this.btnVisualizarNotas.Name = "btnVisualizarNotas";
-            this.btnVisualizarNotas.Size = new System.Drawing.Size(175, 58);
+            this.btnVisualizarNotas.Size = new System.Drawing.Size(200, 69);
             this.btnVisualizarNotas.TabIndex = 2;
             this.btnVisualizarNotas.Text = "Visualizar Notas";
             this.btnVisualizarNotas.UseVisualStyleBackColor = true;
@@ -66,9 +66,9 @@
             // 
             // btnVisualizarTurma
             // 
-            this.btnVisualizarTurma.Location = new System.Drawing.Point(72, 213);
+            this.btnVisualizarTurma.Location = new System.Drawing.Point(62, 200);
             this.btnVisualizarTurma.Name = "btnVisualizarTurma";
-            this.btnVisualizarTurma.Size = new System.Drawing.Size(175, 58);
+            this.btnVisualizarTurma.Size = new System.Drawing.Size(200, 69);
             this.btnVisualizarTurma.TabIndex = 3;
             this.btnVisualizarTurma.Text = "Visualizar Turma";
             this.btnVisualizarTurma.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 428);
-            this.Controls.Add(this.btnVisualizarTurma);
+            this.ClientSize = new System.Drawing.Size(308, 399);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnVisualizarTurma);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnVisualizarNotas);
             this.Name = "MenuAluno";

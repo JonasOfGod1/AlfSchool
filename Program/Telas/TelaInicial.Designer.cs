@@ -38,7 +38,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ravie", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(56, 48);
+            this.label1.Location = new System.Drawing.Point(35, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 54);
             this.label1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("OCR A Extended", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(150, 56);
+            this.label2.Location = new System.Drawing.Point(129, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 41);
             this.label2.TabIndex = 1;
@@ -57,7 +57,7 @@
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Britannic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEntrar.Location = new System.Drawing.Point(89, 345);
+            this.btnEntrar.Location = new System.Drawing.Point(68, 339);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(175, 66);
             this.btnEntrar.TabIndex = 2;
@@ -69,10 +69,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 450);
-            this.Controls.Add(this.btnEntrar);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(321, 447);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnEntrar);
             this.Name = "TelaInicial";
             this.Text = "TelaInicial";
             this.ResumeLayout(false);

@@ -50,7 +50,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(135, 50);
+            this.label1.Location = new System.Drawing.Point(126, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 37);
             this.label1.TabIndex = 0;
@@ -58,119 +58,147 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(55, 105);
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(46, 97);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(222, 23);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Amanda Rosa";
             this.textBox1.Visible = false;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(55, 134);
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(46, 126);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(222, 23);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "Eduarda de Souza";
             this.textBox2.Visible = false;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(55, 163);
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(46, 155);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(222, 23);
             this.textBox3.TabIndex = 1;
+            this.textBox3.Text = "Leonardo Andrade";
             this.textBox3.Visible = false;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(55, 221);
+            this.textBox4.Enabled = false;
+            this.textBox4.Location = new System.Drawing.Point(46, 213);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(222, 23);
             this.textBox4.TabIndex = 1;
+            this.textBox4.Text = "Henrique Nunes";
             this.textBox4.Visible = false;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(55, 424);
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(46, 416);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(222, 23);
             this.textBox5.TabIndex = 1;
+            this.textBox5.Text = "Geovana da Cruz";
             this.textBox5.Visible = false;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(55, 337);
+            this.textBox6.Enabled = false;
+            this.textBox6.Location = new System.Drawing.Point(46, 329);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(222, 23);
             this.textBox6.TabIndex = 1;
+            this.textBox6.Text = "Gustavo de Souza";
             this.textBox6.Visible = false;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(55, 279);
+            this.textBox7.Enabled = false;
+            this.textBox7.Location = new System.Drawing.Point(46, 271);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(222, 23);
             this.textBox7.TabIndex = 1;
+            this.textBox7.Text = "Lucas da Silva";
             this.textBox7.Visible = false;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(55, 308);
+            this.textBox8.Enabled = false;
+            this.textBox8.Location = new System.Drawing.Point(46, 300);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(222, 23);
             this.textBox8.TabIndex = 1;
+            this.textBox8.Text = "Maria Pereira";
             this.textBox8.Visible = false;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(55, 395);
+            this.textBox9.Enabled = false;
+            this.textBox9.Location = new System.Drawing.Point(46, 387);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(222, 23);
             this.textBox9.TabIndex = 1;
+            this.textBox9.Text = "João Rodrigues";
             this.textBox9.Visible = false;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(55, 366);
+            this.textBox10.Enabled = false;
+            this.textBox10.Location = new System.Drawing.Point(46, 358);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(222, 23);
             this.textBox10.TabIndex = 1;
+            this.textBox10.Text = "Alice Barbosa";
             this.textBox10.Visible = false;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(55, 192);
+            this.textBox11.Enabled = false;
+            this.textBox11.Location = new System.Drawing.Point(46, 184);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(222, 23);
             this.textBox11.TabIndex = 1;
+            this.textBox11.Text = "Jéssica Castro";
             this.textBox11.Visible = false;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(55, 453);
+            this.textBox12.Enabled = false;
+            this.textBox12.Location = new System.Drawing.Point(46, 445);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(222, 23);
             this.textBox12.TabIndex = 1;
+            this.textBox12.Text = "Julia Vargas";
             this.textBox12.Visible = false;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(55, 482);
+            this.textBox13.Enabled = false;
+            this.textBox13.Location = new System.Drawing.Point(46, 474);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(222, 23);
             this.textBox13.TabIndex = 1;
+            this.textBox13.Text = "Letícia Rodrigues";
             this.textBox13.Visible = false;
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(55, 250);
+            this.textBox14.Enabled = false;
+            this.textBox14.Location = new System.Drawing.Point(46, 242);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(222, 23);
             this.textBox14.TabIndex = 1;
+            this.textBox14.Text = "Pablo Vargas";
             this.textBox14.Visible = false;
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(76, 526);
+            this.btnVoltar.Location = new System.Drawing.Point(67, 518);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(184, 62);
             this.btnVoltar.TabIndex = 2;
@@ -182,23 +210,23 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 609);
-            this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
+            this.ClientSize = new System.Drawing.Size(323, 609);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.btnVoltar);
             this.Name = "VisualizarTurma";
             this.Text = "VisualizarTurma";
             this.ResumeLayout(false);

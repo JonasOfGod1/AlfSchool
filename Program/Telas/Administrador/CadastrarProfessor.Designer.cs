@@ -46,7 +46,7 @@
             // 
             // btnCadastrarProfessor
             // 
-            this.btnCadastrarProfessor.Location = new System.Drawing.Point(193, 397);
+            this.btnCadastrarProfessor.Location = new System.Drawing.Point(171, 393);
             this.btnCadastrarProfessor.Name = "btnCadastrarProfessor";
             this.btnCadastrarProfessor.Size = new System.Drawing.Size(115, 62);
             this.btnCadastrarProfessor.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(62, 48);
+            this.label1.Location = new System.Drawing.Point(40, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(246, 37);
             this.label1.TabIndex = 1;
@@ -66,14 +66,14 @@
             // 
             // txtNomeProfessor
             // 
-            this.txtNomeProfessor.Location = new System.Drawing.Point(62, 125);
+            this.txtNomeProfessor.Location = new System.Drawing.Point(40, 121);
             this.txtNomeProfessor.Name = "txtNomeProfessor";
             this.txtNomeProfessor.Size = new System.Drawing.Size(246, 23);
             this.txtNomeProfessor.TabIndex = 2;
             // 
             // txtSenhaProfessor
             // 
-            this.txtSenhaProfessor.Location = new System.Drawing.Point(62, 276);
+            this.txtSenhaProfessor.Location = new System.Drawing.Point(40, 272);
             this.txtSenhaProfessor.Name = "txtSenhaProfessor";
             this.txtSenhaProfessor.Size = new System.Drawing.Size(246, 23);
             this.txtSenhaProfessor.TabIndex = 2;
@@ -94,7 +94,7 @@
             "302",
             "303",
             "304"});
-            this.cbbSalaProfessor.Location = new System.Drawing.Point(62, 329);
+            this.cbbSalaProfessor.Location = new System.Drawing.Point(40, 325);
             this.cbbSalaProfessor.Name = "cbbSalaProfessor";
             this.cbbSalaProfessor.Size = new System.Drawing.Size(246, 23);
             this.cbbSalaProfessor.TabIndex = 3;
@@ -102,7 +102,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 107);
+            this.label2.Location = new System.Drawing.Point(40, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 4;
@@ -111,7 +111,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(62, 204);
+            this.label3.Location = new System.Drawing.Point(40, 200);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 15);
             this.label3.TabIndex = 4;
@@ -120,7 +120,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(62, 258);
+            this.label4.Location = new System.Drawing.Point(40, 254);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 15);
             this.label4.TabIndex = 4;
@@ -129,7 +129,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(62, 311);
+            this.label5.Location = new System.Drawing.Point(40, 307);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(28, 15);
             this.label5.TabIndex = 4;
@@ -137,7 +137,7 @@
             // 
             // txtCpfProfessor
             // 
-            this.txtCpfProfessor.Location = new System.Drawing.Point(62, 222);
+            this.txtCpfProfessor.Location = new System.Drawing.Point(40, 218);
             this.txtCpfProfessor.Name = "txtCpfProfessor";
             this.txtCpfProfessor.Size = new System.Drawing.Size(246, 23);
             this.txtCpfProfessor.TabIndex = 2;
@@ -156,7 +156,7 @@
             "Educação Física",
             "Inglês",
             "Artes"});
-            this.cbbMateriaProfessor.Location = new System.Drawing.Point(62, 173);
+            this.cbbMateriaProfessor.Location = new System.Drawing.Point(40, 169);
             this.cbbMateriaProfessor.Name = "cbbMateriaProfessor";
             this.cbbMateriaProfessor.Size = new System.Drawing.Size(246, 23);
             this.cbbMateriaProfessor.TabIndex = 3;
@@ -164,7 +164,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(62, 155);
+            this.label6.Location = new System.Drawing.Point(40, 151);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 15);
             this.label6.TabIndex = 5;
@@ -172,7 +172,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(62, 397);
+            this.btnVoltar.Location = new System.Drawing.Point(40, 393);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(115, 62);
             this.btnVoltar.TabIndex = 6;
@@ -183,7 +183,7 @@
             // lblErrorOrSucess
             // 
             this.lblErrorOrSucess.AutoSize = true;
-            this.lblErrorOrSucess.Location = new System.Drawing.Point(62, 365);
+            this.lblErrorOrSucess.Location = new System.Drawing.Point(40, 361);
             this.lblErrorOrSucess.Name = "lblErrorOrSucess";
             this.lblErrorOrSucess.Size = new System.Drawing.Size(0, 15);
             this.lblErrorOrSucess.TabIndex = 7;
@@ -192,21 +192,21 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(366, 490);
-            this.Controls.Add(this.lblErrorOrSucess);
-            this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.btnCadastrarProfessor);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtSenhaProfessor);
-            this.Controls.Add(this.cbbSalaProfessor);
-            this.Controls.Add(this.cbbMateriaProfessor);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtCpfProfessor);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtNomeProfessor);
+            this.ClientSize = new System.Drawing.Size(335, 490);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtCpfProfessor);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.cbbMateriaProfessor);
+            this.Controls.Add(this.cbbSalaProfessor);
+            this.Controls.Add(this.txtSenhaProfessor);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnCadastrarProfessor);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.txtNomeProfessor);
+            this.Controls.Add(this.lblErrorOrSucess);
             this.Name = "CadastrarProfessor";
             this.Text = "Cadastrar Professor";
             this.ResumeLayout(false);
