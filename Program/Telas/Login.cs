@@ -34,6 +34,7 @@ namespace Program.Telas
             {
                 this.Hide();
                 new MenuProfessor().ShowDialog();
+                new MenuProfessor()
             }
             else if (aluno != null)
             {
@@ -46,6 +47,11 @@ namespace Program.Telas
                 txtCpf.Text = "";
                 txtSenha.Text = "";
             }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

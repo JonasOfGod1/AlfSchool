@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Program.Entities;
 
 namespace Program.Telas.Professor
 {
