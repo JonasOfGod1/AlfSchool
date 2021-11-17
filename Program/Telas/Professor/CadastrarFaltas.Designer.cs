@@ -42,15 +42,16 @@ namespace Program.Telas.Professor
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(59, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 37);
+            this.label1.Size = new System.Drawing.Size(222, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cadastrar Faltas";
             // 
             // cbbAluno
             // 
+            this.cbbAluno.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbAluno.FormattingEnabled = true;
             this.cbbAluno.Items.AddRange(new object[] {
             "Alan da Silva",
@@ -93,6 +94,7 @@ namespace Program.Telas.Professor
             // 
             // txtFaltas
             // 
+            this.txtFaltas.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtFaltas.Location = new System.Drawing.Point(43, 232);
             this.txtFaltas.Name = "txtFaltas";
             this.txtFaltas.Size = new System.Drawing.Size(240, 23);
@@ -100,22 +102,32 @@ namespace Program.Telas.Professor
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnVoltar.Location = new System.Drawing.Point(43, 310);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(116, 51);
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnCadastrar
             // 
+            this.btnCadastrar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnCadastrar.FlatAppearance.BorderSize = 0;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnCadastrar.Location = new System.Drawing.Point(167, 310);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(116, 51);
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // lblErrorOrSucess
@@ -130,6 +142,7 @@ namespace Program.Telas.Professor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(326, 387);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.btnVoltar);

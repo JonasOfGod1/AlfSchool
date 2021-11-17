@@ -46,26 +46,31 @@
             // 
             // btnCadastrarProfessor
             // 
+            this.btnCadastrarProfessor.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnCadastrarProfessor.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarProfessor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarProfessor.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarProfessor.Location = new System.Drawing.Point(171, 393);
             this.btnCadastrarProfessor.Name = "btnCadastrarProfessor";
             this.btnCadastrarProfessor.Size = new System.Drawing.Size(115, 62);
             this.btnCadastrarProfessor.TabIndex = 0;
             this.btnCadastrarProfessor.Text = "Cadastrar";
-            this.btnCadastrarProfessor.UseVisualStyleBackColor = true;
+            this.btnCadastrarProfessor.UseVisualStyleBackColor = false;
             this.btnCadastrarProfessor.Click += new System.EventHandler(this.btnCadastrarProfessor_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(40, 44);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(28, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 37);
+            this.label1.Size = new System.Drawing.Size(270, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cadastrar Professor";
             // 
             // txtNomeProfessor
             // 
+            this.txtNomeProfessor.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNomeProfessor.Location = new System.Drawing.Point(40, 121);
             this.txtNomeProfessor.Name = "txtNomeProfessor";
             this.txtNomeProfessor.Size = new System.Drawing.Size(246, 23);
@@ -73,6 +78,7 @@
             // 
             // txtSenhaProfessor
             // 
+            this.txtSenhaProfessor.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtSenhaProfessor.Location = new System.Drawing.Point(40, 272);
             this.txtSenhaProfessor.Name = "txtSenhaProfessor";
             this.txtSenhaProfessor.Size = new System.Drawing.Size(246, 23);
@@ -80,6 +86,7 @@
             // 
             // cbbSalaProfessor
             // 
+            this.cbbSalaProfessor.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbSalaProfessor.FormattingEnabled = true;
             this.cbbSalaProfessor.Items.AddRange(new object[] {
             "101",
@@ -137,6 +144,7 @@
             // 
             // txtCpfProfessor
             // 
+            this.txtCpfProfessor.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtCpfProfessor.Location = new System.Drawing.Point(40, 218);
             this.txtCpfProfessor.Name = "txtCpfProfessor";
             this.txtCpfProfessor.Size = new System.Drawing.Size(246, 23);
@@ -144,6 +152,7 @@
             // 
             // cbbMateriaProfessor
             // 
+            this.cbbMateriaProfessor.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbMateriaProfessor.FormattingEnabled = true;
             this.cbbMateriaProfessor.Items.AddRange(new object[] {
             "Matemática",
@@ -172,12 +181,16 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnVoltar.Location = new System.Drawing.Point(40, 393);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(115, 62);
             this.btnVoltar.TabIndex = 6;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // lblErrorOrSucess
@@ -192,8 +205,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 490);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(331, 490);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnCadastrarProfessor);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCpfProfessor);
             this.Controls.Add(this.label6);
@@ -203,7 +218,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnCadastrarProfessor);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.txtNomeProfessor);
             this.Controls.Add(this.lblErrorOrSucess);

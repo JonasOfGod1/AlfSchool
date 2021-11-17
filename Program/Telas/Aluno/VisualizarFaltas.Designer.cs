@@ -41,15 +41,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(54, 33);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(50, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 37);
+            this.label1.Size = new System.Drawing.Size(222, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Visualizar Faltas";
             // 
             // cbbMateria
             // 
+            this.cbbMateria.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbMateria.FormattingEnabled = true;
             this.cbbMateria.Items.AddRange(new object[] {
             "Matemática",
@@ -62,23 +63,24 @@
             "Educação Física",
             "Inglês",
             "Artes"});
-            this.cbbMateria.Location = new System.Drawing.Point(54, 151);
+            this.cbbMateria.Location = new System.Drawing.Point(39, 150);
             this.cbbMateria.Name = "cbbMateria";
-            this.cbbMateria.Size = new System.Drawing.Size(207, 23);
+            this.cbbMateria.Size = new System.Drawing.Size(233, 23);
             this.cbbMateria.TabIndex = 1;
             // 
             // txtFaltas
             // 
+            this.txtFaltas.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtFaltas.Enabled = false;
-            this.txtFaltas.Location = new System.Drawing.Point(54, 236);
+            this.txtFaltas.Location = new System.Drawing.Point(39, 235);
             this.txtFaltas.Name = "txtFaltas";
-            this.txtFaltas.Size = new System.Drawing.Size(207, 23);
+            this.txtFaltas.Size = new System.Drawing.Size(233, 23);
             this.txtFaltas.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(54, 133);
+            this.label2.Location = new System.Drawing.Point(39, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 3;
@@ -87,7 +89,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(54, 218);
+            this.label3.Location = new System.Drawing.Point(39, 217);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 15);
             this.label3.TabIndex = 4;
@@ -95,29 +97,39 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(32, 308);
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.btnVoltar.Location = new System.Drawing.Point(39, 308);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(122, 52);
+            this.btnVoltar.Size = new System.Drawing.Size(115, 52);
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnFiltrar
             // 
+            this.btnFiltrar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnFiltrar.FlatAppearance.BorderSize = 0;
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFiltrar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnFiltrar.Location = new System.Drawing.Point(160, 308);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(122, 52);
+            this.btnFiltrar.Size = new System.Drawing.Size(112, 52);
             this.btnFiltrar.TabIndex = 6;
             this.btnFiltrar.Text = "Filtrar";
-            this.btnFiltrar.UseVisualStyleBackColor = true;
+            this.btnFiltrar.UseVisualStyleBackColor = false;
             this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(126, 86);
+            this.label4.Location = new System.Drawing.Point(134, 87);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 28);
             this.label4.TabIndex = 7;
@@ -127,15 +139,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 406);
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ClientSize = new System.Drawing.Size(315, 406);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnFiltrar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnFiltrar);
-            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.cbbMateria);
+            this.Controls.Add(this.txtFaltas);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtFaltas);
-            this.Controls.Add(this.cbbMateria);
             this.Name = "VisualizarFaltas";
             this.Text = "Visualizar Faltas";
             this.ResumeLayout(false);

@@ -40,15 +40,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(96, 44);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(90, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 54);
+            this.label1.Size = new System.Drawing.Size(127, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
             // 
             // txtCpf
             // 
+            this.txtCpf.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtCpf.Location = new System.Drawing.Point(47, 154);
             this.txtCpf.Name = "txtCpf";
             this.txtCpf.Size = new System.Drawing.Size(220, 23);
@@ -56,6 +57,7 @@
             // 
             // txtSenha
             // 
+            this.txtSenha.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtSenha.Location = new System.Drawing.Point(47, 230);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
@@ -82,13 +84,17 @@
             // 
             // btnLogar
             // 
-            this.btnLogar.Font = new System.Drawing.Font("Britannic Bold", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLogar.Location = new System.Drawing.Point(76, 303);
+            this.btnLogar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnLogar.FlatAppearance.BorderSize = 0;
+            this.btnLogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogar.Font = new System.Drawing.Font("Bauhaus 93", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLogar.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.btnLogar.Location = new System.Drawing.Point(74, 303);
             this.btnLogar.Name = "btnLogar";
             this.btnLogar.Size = new System.Drawing.Size(162, 67);
             this.btnLogar.TabIndex = 3;
             this.btnLogar.Text = "Logar";
-            this.btnLogar.UseVisualStyleBackColor = true;
+            this.btnLogar.UseVisualStyleBackColor = false;
             this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
             // 
             // lblErro
@@ -104,14 +110,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(321, 413);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnLogar);
             this.Controls.Add(this.lblErro);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnLogar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtCpf);
-            this.Controls.Add(this.label1);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);

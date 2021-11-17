@@ -44,26 +44,32 @@
             // 
             // btnCadastrarAluno
             // 
+            this.btnCadastrarAluno.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnCadastrarAluno.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarAluno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarAluno.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAluno.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnCadastrarAluno.Location = new System.Drawing.Point(170, 371);
             this.btnCadastrarAluno.Name = "btnCadastrarAluno";
             this.btnCadastrarAluno.Size = new System.Drawing.Size(112, 61);
             this.btnCadastrarAluno.TabIndex = 0;
             this.btnCadastrarAluno.Text = "Cadastrar";
-            this.btnCadastrarAluno.UseVisualStyleBackColor = true;
+            this.btnCadastrarAluno.UseVisualStyleBackColor = false;
             this.btnCadastrarAluno.Click += new System.EventHandler(this.btnCadastrarAluno_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(60, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 37);
+            this.label1.Size = new System.Drawing.Size(224, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cadastrar Aluno";
             // 
             // txtNomeAluno
             // 
+            this.txtNomeAluno.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNomeAluno.Location = new System.Drawing.Point(44, 127);
             this.txtNomeAluno.Name = "txtNomeAluno";
             this.txtNomeAluno.Size = new System.Drawing.Size(238, 23);
@@ -71,6 +77,7 @@
             // 
             // txtCpfAluno
             // 
+            this.txtCpfAluno.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtCpfAluno.Location = new System.Drawing.Point(44, 184);
             this.txtCpfAluno.Name = "txtCpfAluno";
             this.txtCpfAluno.Size = new System.Drawing.Size(238, 23);
@@ -78,6 +85,7 @@
             // 
             // txtSenhaAluno
             // 
+            this.txtSenhaAluno.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtSenhaAluno.Location = new System.Drawing.Point(44, 241);
             this.txtSenhaAluno.Name = "txtSenhaAluno";
             this.txtSenhaAluno.Size = new System.Drawing.Size(238, 23);
@@ -85,6 +93,7 @@
             // 
             // cbbSalaAluno
             // 
+            this.cbbSalaAluno.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbSalaAluno.FormattingEnabled = true;
             this.cbbSalaAluno.Items.AddRange(new object[] {
             "101",
@@ -142,6 +151,11 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnVoltar.Location = new System.Drawing.Point(44, 371);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(112, 61);
@@ -163,6 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(331, 487);
             this.Controls.Add(this.lblErroOrSucess);
             this.Controls.Add(this.label5);

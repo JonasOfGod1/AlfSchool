@@ -43,17 +43,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 50);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(3, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(306, 37);
+            this.label1.Size = new System.Drawing.Size(335, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cadastrar Administrador";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 120);
+            this.label2.Location = new System.Drawing.Point(54, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 185);
+            this.label4.Location = new System.Drawing.Point(54, 185);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 15);
             this.label4.TabIndex = 3;
@@ -70,24 +70,30 @@
             // 
             // btnCadastrarAdministrador
             // 
-            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(163, 343);
+            this.btnCadastrarAdministrador.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnCadastrarAdministrador.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarAdministrador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarAdministrador.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrarAdministrador.Location = new System.Drawing.Point(175, 343);
             this.btnCadastrarAdministrador.Name = "btnCadastrarAdministrador";
             this.btnCadastrarAdministrador.Size = new System.Drawing.Size(116, 59);
             this.btnCadastrarAdministrador.TabIndex = 4;
             this.btnCadastrarAdministrador.Text = "Cadastrar";
-            this.btnCadastrarAdministrador.UseVisualStyleBackColor = true;
+            this.btnCadastrarAdministrador.UseVisualStyleBackColor = false;
             this.btnCadastrarAdministrador.Click += new System.EventHandler(this.btnCadastrarAdministrador_Click);
             // 
             // txtCpfAdministrador
             // 
-            this.txtCpfAdministrador.Location = new System.Drawing.Point(42, 203);
+            this.txtCpfAdministrador.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtCpfAdministrador.Location = new System.Drawing.Point(54, 203);
             this.txtCpfAdministrador.Name = "txtCpfAdministrador";
             this.txtCpfAdministrador.Size = new System.Drawing.Size(237, 23);
             this.txtCpfAdministrador.TabIndex = 7;
             // 
             // txtNomeAdministrador
             // 
-            this.txtNomeAdministrador.Location = new System.Drawing.Point(42, 138);
+            this.txtNomeAdministrador.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtNomeAdministrador.Location = new System.Drawing.Point(54, 138);
             this.txtNomeAdministrador.Name = "txtNomeAdministrador";
             this.txtNomeAdministrador.Size = new System.Drawing.Size(237, 23);
             this.txtNomeAdministrador.TabIndex = 7;
@@ -95,7 +101,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(42, 245);
+            this.label5.Location = new System.Drawing.Point(54, 245);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 15);
             this.label5.TabIndex = 2;
@@ -103,25 +109,30 @@
             // 
             // txtSenhaAdministrador
             // 
-            this.txtSenhaAdministrador.Location = new System.Drawing.Point(42, 263);
+            this.txtSenhaAdministrador.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtSenhaAdministrador.Location = new System.Drawing.Point(54, 263);
             this.txtSenhaAdministrador.Name = "txtSenhaAdministrador";
             this.txtSenhaAdministrador.Size = new System.Drawing.Size(237, 23);
             this.txtSenhaAdministrador.TabIndex = 7;
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Location = new System.Drawing.Point(42, 343);
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.Location = new System.Drawing.Point(54, 343);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(116, 59);
             this.btnVoltar.TabIndex = 8;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // lblErrorOrSucess
             // 
             this.lblErrorOrSucess.AutoSize = true;
-            this.lblErrorOrSucess.Location = new System.Drawing.Point(69, 302);
+            this.lblErrorOrSucess.Location = new System.Drawing.Point(81, 302);
             this.lblErrorOrSucess.Name = "lblErrorOrSucess";
             this.lblErrorOrSucess.Size = new System.Drawing.Size(0, 15);
             this.lblErrorOrSucess.TabIndex = 9;
@@ -130,17 +141,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 460);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnCadastrarAdministrador);
-            this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.lblErrorOrSucess);
-            this.Controls.Add(this.txtSenhaAdministrador);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtNomeAdministrador);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label4);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(339, 460);
             this.Controls.Add(this.txtCpfAdministrador);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtNomeAdministrador);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtSenhaAdministrador);
+            this.Controls.Add(this.lblErrorOrSucess);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnCadastrarAdministrador);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Cadastrar Usuário";
             this.ResumeLayout(false);

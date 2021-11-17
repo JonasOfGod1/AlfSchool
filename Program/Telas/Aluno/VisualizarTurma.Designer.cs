@@ -49,24 +49,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(126, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 37);
+            this.label1.Size = new System.Drawing.Size(65, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "302";
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(46, 97);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(222, 23);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Amanda Rosa";
+            this.textBox1.Text = "Alan da Silva";
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(46, 126);
             this.textBox2.Name = "textBox2";
@@ -76,6 +78,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(46, 155);
             this.textBox3.Name = "textBox3";
@@ -85,6 +88,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(46, 213);
             this.textBox4.Name = "textBox4";
@@ -94,6 +98,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox5.Enabled = false;
             this.textBox5.Location = new System.Drawing.Point(46, 416);
             this.textBox5.Name = "textBox5";
@@ -103,6 +108,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox6.Enabled = false;
             this.textBox6.Location = new System.Drawing.Point(46, 329);
             this.textBox6.Name = "textBox6";
@@ -112,6 +118,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox7.Enabled = false;
             this.textBox7.Location = new System.Drawing.Point(46, 271);
             this.textBox7.Name = "textBox7";
@@ -121,6 +128,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox8.Enabled = false;
             this.textBox8.Location = new System.Drawing.Point(46, 300);
             this.textBox8.Name = "textBox8";
@@ -130,6 +138,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox9.Enabled = false;
             this.textBox9.Location = new System.Drawing.Point(46, 387);
             this.textBox9.Name = "textBox9";
@@ -139,6 +148,7 @@
             // 
             // textBox10
             // 
+            this.textBox10.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox10.Enabled = false;
             this.textBox10.Location = new System.Drawing.Point(46, 358);
             this.textBox10.Name = "textBox10";
@@ -148,6 +158,7 @@
             // 
             // textBox11
             // 
+            this.textBox11.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox11.Enabled = false;
             this.textBox11.Location = new System.Drawing.Point(46, 184);
             this.textBox11.Name = "textBox11";
@@ -157,6 +168,7 @@
             // 
             // textBox12
             // 
+            this.textBox12.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox12.Enabled = false;
             this.textBox12.Location = new System.Drawing.Point(46, 445);
             this.textBox12.Name = "textBox12";
@@ -166,6 +178,7 @@
             // 
             // textBox13
             // 
+            this.textBox13.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox13.Enabled = false;
             this.textBox13.Location = new System.Drawing.Point(46, 474);
             this.textBox13.Name = "textBox13";
@@ -175,6 +188,7 @@
             // 
             // textBox14
             // 
+            this.textBox14.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox14.Enabled = false;
             this.textBox14.Location = new System.Drawing.Point(46, 242);
             this.textBox14.Name = "textBox14";
@@ -184,18 +198,24 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnVoltar.Location = new System.Drawing.Point(67, 518);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(184, 62);
             this.btnVoltar.TabIndex = 2;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // VisualizarTurma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(323, 609);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox14);
@@ -214,7 +234,7 @@
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.btnVoltar);
             this.Name = "VisualizarTurma";
-            this.Text = "VisualizarTurma";
+            this.Text = "Visualizar Turma";
             this.ResumeLayout(false);
             this.PerformLayout();
 

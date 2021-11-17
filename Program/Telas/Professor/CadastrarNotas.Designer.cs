@@ -42,15 +42,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(61, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 37);
+            this.label1.Size = new System.Drawing.Size(224, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cadastrar Notas";
             // 
             // cbbAluno
             // 
+            this.cbbAluno.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbAluno.FormattingEnabled = true;
             this.cbbAluno.Items.AddRange(new object[] {
             "Alan da Silva",
@@ -75,6 +76,7 @@
             // 
             // txtNota
             // 
+            this.txtNota.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNota.Location = new System.Drawing.Point(47, 267);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(239, 23);
@@ -110,22 +112,32 @@
             // 
             // btnCadastrar
             // 
+            this.btnCadastrar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnCadastrar.FlatAppearance.BorderSize = 0;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnCadastrar.Location = new System.Drawing.Point(172, 343);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(127, 55);
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnVoltar.Location = new System.Drawing.Point(39, 343);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(127, 55);
             this.btnVoltar.TabIndex = 7;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // lblErrorOrSucess
@@ -140,6 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(333, 441);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
@@ -151,7 +164,7 @@
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.label4);
             this.Name = "CadastrarNotas";
-            this.Text = "CadastrarNotas";
+            this.Text = "Cadastrar Notas";
             this.ResumeLayout(false);
             this.PerformLayout();
 

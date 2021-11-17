@@ -24,7 +24,7 @@ namespace Program.Telas.Aluno
             }
             else if (cbbMateria.Text == "Português")
             {
-                txtFaltas.Text = "2";
+                txtFaltas.Text = "4";
             }
             else if (cbbMateria.Text == "História")
             {

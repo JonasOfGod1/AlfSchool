@@ -44,8 +44,6 @@ namespace Program.Telas
             else
             {
                 lblErro.Text = "CPF ou Senha inválido(s)";
-                txtCpf.Text = "";
-                txtSenha.Text = "";
             }
         }
 

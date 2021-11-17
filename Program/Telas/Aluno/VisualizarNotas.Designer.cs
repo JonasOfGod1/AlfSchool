@@ -46,15 +46,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(53, 39);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(36, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 37);
+            this.label1.Size = new System.Drawing.Size(224, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Visualizar Notas";
             // 
             // cbbMateria
             // 
+            this.cbbMateria.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.cbbMateria.FormattingEnabled = true;
             this.cbbMateria.Items.AddRange(new object[] {
             "Matemática",
@@ -83,6 +84,7 @@
             // 
             // txtNota1
             // 
+            this.txtNota1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNota1.Enabled = false;
             this.txtNota1.Location = new System.Drawing.Point(53, 188);
             this.txtNota1.Name = "txtNota1";
@@ -102,6 +104,7 @@
             // 
             // txtNota2
             // 
+            this.txtNota2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNota2.Enabled = false;
             this.txtNota2.Location = new System.Drawing.Point(53, 236);
             this.txtNota2.Name = "txtNota2";
@@ -121,6 +124,7 @@
             // 
             // txtNota3
             // 
+            this.txtNota3.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNota3.Enabled = false;
             this.txtNota3.Location = new System.Drawing.Point(53, 283);
             this.txtNota3.Name = "txtNota3";
@@ -140,6 +144,7 @@
             // 
             // txtNota4
             // 
+            this.txtNota4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.txtNota4.Enabled = false;
             this.txtNota4.Location = new System.Drawing.Point(53, 330);
             this.txtNota4.Name = "txtNota4";
@@ -159,28 +164,39 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Plum;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnVoltar.Location = new System.Drawing.Point(30, 386);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(122, 52);
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnFiltrar
             // 
+            this.btnFiltrar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.btnFiltrar.FlatAppearance.BorderSize = 0;
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFiltrar.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btnFiltrar.Location = new System.Drawing.Point(158, 386);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(122, 52);
             this.btnFiltrar.TabIndex = 6;
             this.btnFiltrar.Text = "Filtrar";
-            this.btnFiltrar.UseVisualStyleBackColor = true;
+            this.btnFiltrar.UseVisualStyleBackColor = false;
             this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // VisualizarNotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(315, 477);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNota4);
@@ -196,7 +212,7 @@
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnFiltrar);
             this.Name = "VisualizarNotas";
-            this.Text = "VisualizarNotas";
+            this.Text = "Visualizar Notas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
