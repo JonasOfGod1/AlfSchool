@@ -34,7 +34,7 @@ namespace Program.Telas
             {
                 this.Hide();
                 new MenuProfessor().ShowDialog();
-                new MenuProfessor()
+                new MenuProfessor();
             }
             else if (aluno != null)
             {

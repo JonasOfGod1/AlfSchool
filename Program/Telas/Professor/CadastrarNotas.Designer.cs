@@ -53,9 +53,21 @@
             // 
             this.cbbAluno.FormattingEnabled = true;
             this.cbbAluno.Items.AddRange(new object[] {
-            "Jonas",
-            "Carlos",
-            "Gabriel"});
+            "Alan da Silva",
+            "Amanda rosa",
+            "Eduarda de Souza",
+            "Leonardo Andrade",
+            "Jéssica Castro",
+            "Henrique Nunes",
+            "Pablo Vargas",
+            "Lucas da Silva",
+            "Maria Pereira",
+            "Gustavo de Souza",
+            "Alice Barbosa",
+            "João Rodrigues",
+            "Geovana da Cruz",
+            "Julia Vargas",
+            "Letícia Rodrigues"});
             this.cbbAluno.Location = new System.Drawing.Point(47, 175);
             this.cbbAluno.Name = "cbbAluno";
             this.cbbAluno.Size = new System.Drawing.Size(239, 23);

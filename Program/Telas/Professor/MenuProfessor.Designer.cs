@@ -32,6 +32,7 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnCadastrarNota = new System.Windows.Forms.Button();
             this.btnVisualizarTurma = new System.Windows.Forms.Button();
+            this.btnCadastrarFalta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +47,7 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(61, 293);
+            this.btnLogout.Location = new System.Drawing.Point(61, 345);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(201, 66);
             this.btnLogout.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             // btnVisualizarTurma
             // 
-            this.btnVisualizarTurma.Location = new System.Drawing.Point(61, 210);
+            this.btnVisualizarTurma.Location = new System.Drawing.Point(61, 273);
             this.btnVisualizarTurma.Name = "btnVisualizarTurma";
             this.btnVisualizarTurma.Size = new System.Drawing.Size(201, 66);
             this.btnVisualizarTurma.TabIndex = 3;
@@ -74,15 +75,26 @@
             this.btnVisualizarTurma.UseVisualStyleBackColor = true;
             this.btnVisualizarTurma.Click += new System.EventHandler(this.btnVisualizarTurma_Click);
             // 
+            // btnCadastrarFalta
+            // 
+            this.btnCadastrarFalta.Location = new System.Drawing.Point(61, 201);
+            this.btnCadastrarFalta.Name = "btnCadastrarFalta";
+            this.btnCadastrarFalta.Size = new System.Drawing.Size(201, 66);
+            this.btnCadastrarFalta.TabIndex = 4;
+            this.btnCadastrarFalta.Text = "Cadastrar Falta";
+            this.btnCadastrarFalta.UseVisualStyleBackColor = true;
+            this.btnCadastrarFalta.Click += new System.EventHandler(this.btnCadastrarFalta_Click);
+            // 
             // MenuProfessor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(318, 432);
+            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnVisualizarTurma);
+            this.Controls.Add(this.btnCadastrarFalta);
             this.Controls.Add(this.btnCadastrarNota);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnVisualizarTurma);
-            this.Controls.Add(this.btnLogout);
             this.Name = "MenuProfessor";
             this.Text = "MenuProfessor";
             this.ResumeLayout(false);
@@ -96,5 +108,6 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnCadastrarNota;
         private System.Windows.Forms.Button btnVisualizarTurma;
+        private System.Windows.Forms.Button btnCadastrarFalta;
     }
 }

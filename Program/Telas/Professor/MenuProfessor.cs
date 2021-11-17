@@ -28,5 +28,11 @@ namespace Program.Telas.Professor
             this.Hide();
             new VisualizarTurma().ShowDialog();
         }
+
+        private void btnCadastrarFalta_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CadastrarFaltas().Show();
+        }
     }
 }
