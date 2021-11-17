@@ -27,5 +27,11 @@ namespace Program.Telas.Aluno
             this.Hide();
             new VisualizarTurma().ShowDialog();
         }
+
+        private void btnVisualizarFaltas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new VisualizarFaltas().Show();
+        }
     }
 }

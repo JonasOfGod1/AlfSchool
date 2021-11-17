@@ -32,6 +32,7 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnVisualizarNotas = new System.Windows.Forms.Button();
             this.btnVisualizarTurma = new System.Windows.Forms.Button();
+            this.btnVisualizarFaltas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +47,7 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(60, 275);
+            this.btnLogout.Location = new System.Drawing.Point(62, 350);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(202, 69);
             this.btnLogout.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             // btnVisualizarTurma
             // 
-            this.btnVisualizarTurma.Location = new System.Drawing.Point(62, 200);
+            this.btnVisualizarTurma.Location = new System.Drawing.Point(62, 275);
             this.btnVisualizarTurma.Name = "btnVisualizarTurma";
             this.btnVisualizarTurma.Size = new System.Drawing.Size(200, 69);
             this.btnVisualizarTurma.TabIndex = 3;
@@ -74,14 +75,25 @@
             this.btnVisualizarTurma.UseVisualStyleBackColor = true;
             this.btnVisualizarTurma.Click += new System.EventHandler(this.btnVisualizarTurma_Click);
             // 
+            // btnVisualizarFaltas
+            // 
+            this.btnVisualizarFaltas.Location = new System.Drawing.Point(62, 200);
+            this.btnVisualizarFaltas.Name = "btnVisualizarFaltas";
+            this.btnVisualizarFaltas.Size = new System.Drawing.Size(200, 69);
+            this.btnVisualizarFaltas.TabIndex = 4;
+            this.btnVisualizarFaltas.Text = "Visualizar Faltas";
+            this.btnVisualizarFaltas.UseVisualStyleBackColor = true;
+            this.btnVisualizarFaltas.Click += new System.EventHandler(this.btnVisualizarFaltas_Click);
+            // 
             // MenuAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 399);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnVisualizarTurma);
+            this.ClientSize = new System.Drawing.Size(308, 449);
             this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnVisualizarTurma);
+            this.Controls.Add(this.btnVisualizarFaltas);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnVisualizarNotas);
             this.Name = "MenuAluno";
             this.Text = "MenuAluno";
@@ -96,5 +108,6 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnVisualizarNotas;
         private System.Windows.Forms.Button btnVisualizarTurma;
+        private System.Windows.Forms.Button btnVisualizarFaltas;
     }
 }

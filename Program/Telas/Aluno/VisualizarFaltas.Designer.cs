@@ -51,6 +51,17 @@
             // cbbMateria
             // 
             this.cbbMateria.FormattingEnabled = true;
+            this.cbbMateria.Items.AddRange(new object[] {
+            "Matemática",
+            "Português",
+            "História",
+            "Geografia",
+            "Biologia",
+            "Física",
+            "Química",
+            "Educação Física",
+            "Inglês",
+            "Artes"});
             this.cbbMateria.Location = new System.Drawing.Point(54, 151);
             this.cbbMateria.Name = "cbbMateria";
             this.cbbMateria.Size = new System.Drawing.Size(207, 23);
@@ -94,7 +105,6 @@
             // 
             // btnFiltrar
             // 
-            this.btnFiltrar.Enabled = false;
             this.btnFiltrar.Location = new System.Drawing.Point(160, 308);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(122, 52);
